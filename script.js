@@ -21,7 +21,7 @@ function showData(data) {
         .map(
           song => `<li>
       <span><strong>${song.artist.name}</strong> - ${song.title}</span>
-      <button class="btn" data-artist="${song.artist.name}" data-songtitle="${song.title}">Get Lyrics</button>
+      <button class="btn1" data-artist="${song.artist.name}" data-songtitle="${song.title}">Get Lyrics</button>
     </li>`
         )
         .join('')}
@@ -32,12 +32,12 @@ function showData(data) {
     more.innerHTML = `
       ${
         data.prev
-          ? `<button class="btn" onclick="getMoreSongs('${data.prev}')">Prev</button>`
+          ? `<button class="btn1" onclick="getMoreSongs('${data.prev}')">Prev</button>`
           : ''
       }
       ${
         data.next
-          ? `<button class="btn" onclick="getMoreSongs('${data.next}')">Next</button>`
+          ? `<button class="btn1" onclick="getMoreSongs('${data.next}')">Next</button>`
           : ''
       }
     `;
