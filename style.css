@@ -83,6 +83,31 @@ form button {
   font-size: 16px;
   padding: 13px 30px;
 }
+.btn1{
+  background: #bc6dbf;
+ background-image: -webkit-linear-gradient(top, #bc6dbf, #234961);
+ background-image: -moz-linear-gradient(top, #bc6dbf, #234961);
+ background-image: -ms-linear-gradient(top, #bc6dbf, #234961);
+ background-image: -o-linear-gradient(top, #bc6dbf, #234961);
+ background-image: linear-gradient(to bottom, #bc6dbf, #234961);
+ -webkit-border-radius: 28;
+ -moz-border-radius: 28;
+ border-radius: 28px;
+ font-family: Arial;
+ color: #f0edf0;
+ font-size: 15px;
+ padding: 10px 20px 10px 20px;
+ text-decoration: none;
+}
+.btn1:hover{
+  background: #f28cd5;
+ background-image: -webkit-linear-gradient(top, #f28cd5, #b6dbe3);
+ background-image: -moz-linear-gradient(top, #f28cd5, #b6dbe3);
+ background-image: -ms-linear-gradient(top, #f28cd5, #b6dbe3);
+ background-image: -o-linear-gradient(top, #f28cd5, #b6dbe3);
+ background-image: linear-gradient(to bottom, #f28cd5, #b6dbe3);
+ text-decoration: none;
+}
 
 .btn:link,
 .btn:visited {
